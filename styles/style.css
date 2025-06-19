@@ -72,14 +72,26 @@ body {
 
 @media (max-width: 600px) {
     .css-flower {
-        width: 44px;
-        height: 44px;
+        width: 64px;
+        height: 64px;
     }
-    .flower-pos1 { top: 3vh; left: 2vw; }
-    .flower-pos2 { top: 10vh; right: 2vw; }
-    .flower-pos3 { bottom: 6vh; left: 4vw; }
-    .flower-pos4 { bottom: 4vh; right: 4vw; }
-    .flower-pos5 { top: 38vh; left: 38vw; }
+    .css-flower .petal {
+        width: 24px;
+        height: 40px;
+        top: 12px;
+        left: 20px;
+    }
+    .css-flower .petal1 { transform: rotate(0deg)   translateY(-12px); }
+    .css-flower .petal2 { transform: rotate(72deg)  translateY(-12px); }
+    .css-flower .petal3 { transform: rotate(144deg) translateY(-12px); }
+    .css-flower .petal4 { transform: rotate(216deg) translateY(-12px); }
+    .css-flower .petal5 { transform: rotate(288deg) translateY(-12px); }
+    .css-flower .center {
+        top: 22px;
+        left: 22px;
+        width: 20px;
+        height: 20px;
+    }
 }
 
 .cat-profile,
